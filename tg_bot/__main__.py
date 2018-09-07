@@ -19,21 +19,13 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hi {}, my name is {}! I'm a group manager bot maintained by [this wonderful person](tg://user?id={}). I'm built in python3, using the \
-python-telegram-bot library, and am fully opensource - you can find what makes me tick \
-[here](github.com/pkp1337x/management-bot)!
+ഹായ്  {}, എന്റെ പേര് {}! ഞാൻ [ഇദ്ദേഹം](tg://user?id={}) maintain ചെയ്യുന്ന ഒരു ഗ്രൂപ്പ് മാനേജർ ബോട്ട് ആണ്.എന്റെ സോഴ്സ് കോഡ് [ഇവിടെ](github.com/pkp1337x/management-bot) കാണാം. 
 
-You can find the list of available commands with /help.
-
-If you're enjoying using me, and/or would like to help me survive in the wild, hit /donate to help fund/upgrade my VPS!
+എന്നെക്കുറിച്ചു കൂടുതൽ അറിയാൻ /help.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
-the things I can help you with.
-
-*Main* commands available:
+*പ്രധാന commands* 
  - /start: start the bot
  - /help: PM's you this message.
  - /help <module name>: PM's you info about that module.
