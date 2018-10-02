@@ -19,13 +19,13 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-ഹായ്  {}, എന്റെ പേര് {}! ഞാൻ [ഇദ്ദേഹം](tg://user?id={}) maintain ചെയ്യുന്ന ഒരു ഗ്രൂപ്പ് മാനേജർ ബോട്ട് ആണ്.എന്റെ സോഴ്സ് കോഡ് [ഇവിടെ](github.com/pkp1337x/management-bot) കാണാം. 
+ഹായ്  {}, എന്റെ പേര് {}! ഞാൻ [ഇദ്ദേഹം](tg://user?id={}) maintain ചെയ്യുന്ന ഒരു ഗ്രൂപ്പ് മാനേജർ ബോട്ട് ആണ്.എന്റെ സോഴ്സ് കോഡ് [ഇവിടെ](github.com/LeonardoDiCaprio13/management-bot) കാണാം. 
 
 എന്നെക്കുറിച്ചു കൂടുതൽ അറിയാൻ /help.
 """
 
 HELP_STRINGS = """
-*പ്രധാന commands* 
+*പ്രധാന ആജ്ഞകൾ  * 
  - /start: start the bot
  - /help: PM's you this message.
  - /help <module name>: PM's you info about that module.
